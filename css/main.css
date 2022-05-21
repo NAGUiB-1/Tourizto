@@ -6,9 +6,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: san s-serif;
-  width:100vw;
+  width: 100vw;
   overflow-x: hidden
-
 }
 
 /*************************************************
@@ -94,7 +93,7 @@ body {
     position: absolute;
     top: 50px;
     right: 0;
-    width:100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 
@@ -106,34 +105,37 @@ body {
   }
 
   nav ul {
-        background: #000;
+    background: #000;
 
     padding-left: 0;
-    padding-top:1rem;
-        padding-bottom:1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: right;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-   
-    width:100vw;
+
+    width: 100vw;
     justify-content: center;
-   align-items: center;
-   gap:1rem;
-   opacity:0;
-           animation: move1 .4s ease-in-out forwards;
-
-
-
-  }
-  @keyframes move1{
-    from{
+    align-items: center;
+    gap: 1rem;
     opacity: 0;
+    animation: move1 .4s ease-in-out forwards;
+
+
+
+  }
+
+  @keyframes move1 {
+    from {
+      opacity: 0;
     }
-    to{
-      opacity:1;
+
+    to {
+      opacity: 1;
     }
   }
+
   nav ul li {
     list-style-type: none;
     display: flex;
@@ -185,7 +187,7 @@ body {
     position: relative;
     width: 100%;
     background-attachment: fixed;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -205,6 +207,12 @@ body {
     color: white;
     z-index: 2;
     text-align: center;
+    width: 100%;
+    display: flex;
+        justify-content: space-evenly;
+
+    align-items: center;
+    flex-direction: column;
 
   }
 
@@ -221,13 +229,13 @@ body {
   }
 
   .info form {
-    margin-top: 70px;
+    width:100%;
     text-align: center;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:.1rem;
+    gap: .1rem;
 
   }
 
@@ -359,7 +367,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-        background-attachment: fixed;
+    background-attachment: fixed;
 
   }
 
@@ -943,15 +951,14 @@ body {
   }
 
   .header .info {
-  
+
     color: white;
- 
+    width: 100%;
     z-index: 2;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column
-
   }
 
   .header .info h2 {
@@ -964,6 +971,8 @@ body {
   }
 
   .header .info form {
+    width:100%;
+  
     text-align: center;
     font-size: 20px;
     display: flex;
@@ -983,7 +992,7 @@ body {
     font-weight: bold;
     background-color: #fff;
     outline: none;
-    padding:1rem;
+    padding: 1rem;
 
   }
 
@@ -1049,7 +1058,7 @@ body {
 
   .city:hover {
     transform: scale(1.09);
-    box-shadow: 0 0 2px 15px #ddd; 
+    box-shadow: 0 0 2px 15px #ddd;
     cursor: pointer;
   }
 
@@ -1090,7 +1099,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding:0 1rem ;
+    padding: 0 1rem;
     background-attachment: fixed
   }
 
@@ -1641,6 +1650,9 @@ body {
     position: relative;
     z-index: 0;
     background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header .overlay {
@@ -1653,11 +1665,11 @@ body {
   }
 
   .header .info {
-    position: absolute;
-    top: 35%;
-    left: 50%;
+    width:100%;
     color: white;
-    margin-left: -388.5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
   }
 
@@ -1671,7 +1683,7 @@ body {
   }
 
   .header .info form {
-    margin-top: 70px;
+    width:100%;
     text-align: center;
     font-size: 20px;
 
@@ -1794,7 +1806,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-attachment: fixed;
 
   }
 
@@ -1976,7 +1988,7 @@ body {
     background-repeat: no-repeat;
     height: 500px;
     position: relative;
-        background-attachment: fixed;
+    background-attachment: fixed;
 
   }
 
